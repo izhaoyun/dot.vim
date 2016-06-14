@@ -39,4 +39,6 @@ set softtabstop=4
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 
+set autoindent
+set smartindent
 set cindent
