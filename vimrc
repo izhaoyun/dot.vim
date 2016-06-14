@@ -30,3 +30,13 @@ Plugin 'davidhalter/jedi-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on
+
+" indentation without tabs
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
+
+set cindent
